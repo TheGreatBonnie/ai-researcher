@@ -34,7 +34,7 @@ def main():
     port = int('8000')
     uvicorn.run(
         "ai_researcher.demo:app",
-        host="localhost",
+        host="0.0.0.0",
         port=port,
         reload=True,
         reload_dirs=(
