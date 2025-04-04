@@ -31,7 +31,7 @@ def health():
 
 def main():
     """Run the uvicorn server."""
-    port = int(os.getenv("PORT", "8000"))
+    port = int('8000')
     uvicorn.run(
         "ai_researcher.demo:app",
         host="localhost",
