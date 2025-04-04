@@ -5,3 +5,4 @@ __pycache__/
 .vercel
 .vscode/
 .langgraph_api/
+node_modules/
