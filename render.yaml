@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ai-researcher
+    env: python
+    buildCommand: poetry install
+    startCommand: poetry run demo
+    pythonVersion: 3.12.2
